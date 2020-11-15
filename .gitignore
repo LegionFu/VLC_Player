@@ -1,0 +1,48 @@
+### UE ###
+Binaries
+Build
+DerivedDataCache
+Intermediate
+Saved
+Releases
+.vscode
+.vs
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.pcap
+
+### Python ###
+*.py[cod]
+*$py.class
+__pycache__
+.ipynb_checkpoints
+.idea
+*.bak
+
+
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+
+[Dd]esktop.ini
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+### Emacs ###
+*~
+*#
+*#'
