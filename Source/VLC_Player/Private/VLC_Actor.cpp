@@ -578,7 +578,7 @@ void AVLC_Actor::video_log_callback(void * data, int level, const libvlc_log_t *
 	// forward message to log
 	ANSICHAR Message[1024];
 
-	FCStringAnsi::GetVarArgs(Message, ARRAY_COUNT(Message), ARRAY_COUNT(Message) - 1, fmt, args);
+	FCStringAnsi::GetVarArgs(Message, UE_ARRAY_COUNT(Message), fmt, args);
 
 	switch (level)
 	{
